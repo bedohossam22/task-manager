@@ -1,65 +1,75 @@
-Video :- https://drive.google.com/file/d/18x6lwmfQuALiWu77FfD8PNQMZZhjFDos/view?usp=drive_link
-
-#📝 Task Manager App
+# 📝 Task Manager App
 
 A simple full-stack **Task Management App** built with **Laravel**, **React (Inertia.js)**, and **MySQL**. Users can add, edit, delete, and mark tasks as complete — with support for descriptions and priorities.
+
+🎥 [Demo Video](https://drive.google.com/file/d/18x6lwmfQuALiWu77FfD8PNQMZZhjFDos/view?usp=drive_link)
 
 ---
 
 ## 🚀 Features
 
-- Add new tasks with title, description, and priority.
-- Edit task details (title, description, priority).
-- Mark tasks as completed.
-- Delete tasks.
-- RESTful API with Laravel.
-- Frontend powered by React + Tailwind CSS via Inertia.
+- ✅ Add new tasks (title, description, priority)
+- ✏️ Edit task details
+- ✔️ Mark tasks as completed
+- 🗑️ Delete tasks
+- ⚙️ RESTful Laravel API
+- 💡 Modern UI using React + Tailwind CSS
 
 ---
 
 ## 🛠️ Tech Stack
 
 - **Frontend:** React.js, Inertia.js, Tailwind CSS
-- **Backend:** Laravel (API)
+- **Backend:** Laravel
 - **Database:** MySQL
-- **Auth (optional):** Laravel Breeze / Sanctum (if used)
+- **Optional Auth:** Laravel Breeze / Sanctum
 
 ---
 
 ## 📦 Installation & Setup
 
-### 1. Clone the repository & install Xamp for localhost
+### 1. Clone the repository & run XAMPP
+
 ```bash
 git clone https://github.com/your-username/task-manager-app.git
 cd task-manager-app
-```
-
-### 2. Install PHP and JS dependencies
+2. Install backend & frontend dependencies
 bash
 Copy
 Edit
 composer install
 npm install
+3. Configure your .env file
+Update the following in .env:
 
-### 3. Update Your Env file
+env
+Copy
+Edit
 DB_DATABASE=your_db
 DB_USERNAME=your_user
 DB_PASSWORD=your_pass
+Make sure the database exists in phpMyAdmin (via XAMPP).
 
-### 4. Generate app key and run migrations
+4. Generate app key & run migrations
 bash
 Copy
 Edit
 php artisan key:generate
 php artisan migrate
-5. Start dev servers
+5. Run development servers
 bash
 Copy
 Edit
 npm run dev
 php artisan serve
-Access the app at:
+Then open:
 👉 http://localhost:8000/tasks
 
-Made By Abdelrahman - Learn on the Job #1
+💬 Notes
+I haven’t fully mastered the ideal project structure yet, and there are some unused files due to earlier failed attempts.
+That said, I prioritized early delivery and core functionality, and I’m confident in my ability to complete and improve the app further.
 
+🙏 Thank You
+Thank you for the opportunity 🙌
+Made by Abdelrahman
+#Self-Taught Developer
