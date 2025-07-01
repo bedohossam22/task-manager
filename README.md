@@ -33,6 +33,7 @@ A simple full-stack **Task Management App** built with **Laravel**, **React (Ine
 ```bash
 git clone https://github.com/your-username/task-manager-app.git
 cd task-manager-app
+```
 2. Install backend & frontend dependencies
 bash
 Copy
